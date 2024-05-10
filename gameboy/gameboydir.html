@@ -13,9 +13,27 @@
     <link rel="shortcut icon" href="../favicon.ico?v=5">
     <meta name="msapplication-TileColor" content="#9f00a7">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="../style.css">
+    
 </head>
 <body>
+    <style>
+        div.gameboy > a {
+            font-size: 1.5rem;
+            color: rgb(0, 0, 0);
+            text-decoration: transparent;
+            text-shadow: 3px 1px var(--theme-clr);
+            width: max-content;
+            display: block;
+            margin: 0 auto;
+            transition: color 300ms, text-shadow 300ms, transform 300ms;
+            }
+
+            div.gameboy > a:hover {
+            color: var(--theme-clr);
+            text-shadow: 0 0 4px;
+            transform: scale(1.05);
+            }
+    </style>
     <a href="https://pickelbyte3.github.io" id="back">Back</a>
     <h1>GameBoy Games</h1>
     <div class="gameboy">
